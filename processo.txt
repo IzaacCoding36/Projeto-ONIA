@@ -1,0 +1,18 @@
+Software / Biblioteca utilizado: Scikit-learn e XGBoost
+
+Passos da resolução da Prova: 
+1. Carreguei treino.csv e teste.csv com Pandas.
+2. Separei as 13 features e o target do treino.
+3. Normalizei os dados com StandardScaler.
+4. Dividi em 90% treino e 10% validação.
+5. Treinei um XGBoost com 500 estimadores, max_depth=20 e learning_rate=0.1.
+6. Avaliei com Medida-F (0.7943).
+7. Previ o teste.csv e salvei em resultado.csv.
+
+Explicação da escolha do algoritmo: 
+
+Eu escolhi o XGBoost por sua precisão em corrigir erros iterativamente. Usei normalização e ajustes pra maximizar o desempenho nas 13 features, necessário para ter um resultado com maior precisão para lidar com dados complexos como os fornecidos para essa fase.
+
+Processo:
+
+Inicialmente eu assisti algumas aulas sobre machine learning e aprendi mais alguns conceitos em python, em seguida, eu comecei a colocá-los em prática para realmente aprender, em seguida, tentei instalar o Orange no meu notebook mas não deu certo, e então, como uso um sistema linux, achei melhor instalar o Scikit-learn e testar alguns códigos python para aprender, então eu estudei mais sobre os modelos e comecei a trabalhar nos templates .csv disponíveis nesta fase e então comecei usando o modelo Decision Tree, pois é mais simples e era o mais recomendável para eu começar a usar, inicialmente eu testei, comecei a aprender e a entender melhor, e consegui resultados com uma avaliação de medida-f de aproximadamente 0.623, então resolvi fazer algumas alterações, mudei do Decision Tree para o Random Forest e fiz vários ajustes, conseguindo chegar a um resultado com avaliação de medida-f de aproximadamente 0.742, o que já é um número razoavelmente bom para alcançar resultados legítimos e com um bom desempenho, após isso, pesquisei mais e descobri o XGBoost, então testei, fiz os ajustes necessários e apliquei a normalização dos dados com StandardScaler, com isso, atingi resultados ainda melhores, com a medida-f de 0.7943, eu acredito que já seja o suficiente para eu enviar o resultado, checado e analisado, com exatamente 2 colunas, e 4501 linhas com os devidos ids e classificações, eu poderia melhorar meus resultados, mas isso exigiria muito mais tempo para realizar ajustes complexos, então vou permanecer com esse resultado.
