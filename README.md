@@ -1,5 +1,9 @@
-# Projeto-ONIA
-Esse repositório será utilizado para a publicação e desenvolvimento do meu projeto para a Olimpíada Nacional de Inteligência Artificial (ONIA) de 2025.
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=500&size=17&pause=1000&color=FFFFFF&background=0B004B&center=true&vCenter=true&width=1000&height=100&lines=Primeira+Olimp%C3%ADada+Nacional+de+Intelig%C3%AAncia+Artificial;ONIA;Projeto+Finalista)](https://git.io/typing-svg)
+
+---
+
+# Projeto ONIA
+Esse repositório será utilizado para a publicação e desenvolvimento do meu projeto para a primeira Olimpíada Nacional de Inteligência Artificial (ONIA) de 2025.
 
 ### No que se baseia esse projeto?
 
